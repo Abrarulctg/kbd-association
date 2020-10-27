@@ -1,0 +1,14 @@
+.not-found{
+    text-align: center;
+    padding: 100px 0;
+    color: #00215e;
+}
+
+.not-found span{
+    color: #ff2600;
+}
+
+.error-code{
+    font-size: 150px;
+    letter-spacing: 10px;
+}

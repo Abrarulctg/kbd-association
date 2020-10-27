@@ -1,0 +1,32 @@
+.statistics-block{
+    padding: 80px 0;
+}
+
+.statistics{
+    padding: 20px;
+    box-shadow: 0px 3px 10px lightgray;
+    text-align: center;
+}
+
+.statistics a{
+    color: #707070;
+    margin-bottom: 10px;
+}
+.statistics a:hover{
+    color: #505050;
+}
+
+.donate-count{
+    color: #ff0000;
+    font-size: 44px !important;
+    font-weight: 700;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+}
+
+.statistics-title{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #002366;
+}

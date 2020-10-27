@@ -1,0 +1,65 @@
+/* .about-us-block{
+    background-image: url(../../image/about-bnr.jpg);
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    padding: 80px 0;
+    position: relative;
+
+} */
+
+.big-title{
+    padding: 80px 0 0;
+    font-size: 56px !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#002366;
+    letter-spacing: 3px;
+    text-align:center;
+}
+
+.volunteer-icon{
+    position: relative;
+    width: 150px;
+}
+
+.volunteer{
+    position: relative;
+}
+
+.volunteer:after{
+    position: absolute;
+    content: "";
+    height: 11px;
+    width: 80px;
+    background: tomato;
+    border-radius: 8px;
+    top: 50%;
+    left: 40%;
+    transform: translateX(-50%);
+}
+ 
+
+.volunteer:before{
+    position: absolute;
+    content: "";
+    height: 11px;
+    width: 80px;
+    background: tomato;
+    border-radius: 8px;
+    top: 50%;
+    left: 60%;
+    transform: translateX(-50%);
+}
+
+.small-brief{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+ 
+.about-kbda{
+    padding: 40px 60px;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+}

@@ -1,0 +1,96 @@
+.recipient-msg-icon{
+    color: #fd2600;
+    position: relative;
+}
+
+.recipient-msg-icon:after{
+    position: absolute;
+    content: "";
+    height: 11px;
+    width: 80px;
+    background: #f52500;
+    border-radius: 8px;
+    top: 50%;
+    left: 42%;
+    transform: translateX(-50%);
+}
+ 
+.recipient-msg-icon:before{
+    position: absolute;
+    content: "";
+    height: 11px;
+    width: 80px;
+    background: #f52500;
+    border-radius: 8px;
+    top: 50%;
+    left: 58%;
+    transform: translateX(-50%);
+}
+
+.recipient-msg-box{
+    width: 70%;
+    background-color: #f8dad5;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 35px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.recipient-msg{
+    font-size: 20px;
+    color: black;
+}
+
+.recipient{
+    color: #ff0000;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
+.recipient:hover{
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+
+
+.recipient-msg-box .carousel-indicators li{
+    height: 15px;
+    width: 18px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+.recipient-msg-box .carousel-indicators .active{
+    height: 15px;
+    width: 30px;
+    border-radius: 8px;
+    background-color: #ff0000;
+    border: 2px solid #fff;
+}
+
+.recipient-msg-box .carousel-control-next, .recipient-msg-box .carousel-control-prev {
+    width: 35px;
+    height: 30px;
+    background-color: #ff0000;
+    border: 2px solid #fff;
+    top: 50%;
+    border-radius: 5px;
+}
+.recipient-msg-box .carousel-control-next{
+    right: -4%;
+}
+.recipient-msg-box .carousel-control-prev{
+    left: -4%;
+}
+
+.recipient-msg-box .carousel-control-prev-icon, .recipient-msg-box .carousel-control-next-icon{
+    width: 18px;
+}
+
+.recipient-msg-box .carousel-indicators{
+    bottom: -30%;
+}

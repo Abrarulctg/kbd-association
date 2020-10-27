@@ -1,0 +1,40 @@
+.mini-type-title{
+    font-size: 36px;
+    color: #002366;
+    position: relative;
+}
+
+.mini-type-title:after{
+    position: absolute;
+    content:"";
+    height:5px;
+    width: 15%;
+    background: red;
+    bottom:-20%;
+    left:0;
+}
+.mini-type-title:before{
+    position: absolute;
+    content:"";
+    height:5px;
+    width: 100%;
+    background: #ffd5d5;
+    bottom:-20%;
+    left:0;
+}
+
+.contact-form{
+    padding-bottom: 80px;
+}
+
+
+.input-title{
+    font-size:24px;
+    color: #002366;
+    margin-top: 20px;
+}
+
+
+span.error{
+    color: red;
+}

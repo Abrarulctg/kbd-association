@@ -1,0 +1,23 @@
+
+.navbar{
+    background-color: #fdf7f7;
+}
+
+.navbar-brand-logo{
+    width: 80px;
+}
+
+.brand-name{
+    color: #ff0000;
+    font-size: 26px;
+    font-weight: 700;
+}
+.brand-name:hover{
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.navbar-nav a{
+    margin: 10px;
+    font-weight: 700;
+}
