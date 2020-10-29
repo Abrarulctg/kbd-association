@@ -8,3 +8,42 @@
     font-size: 44px;
     font-weight: 700;
 }
+
+.modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paper{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 5px gray;
+    padding:60px !important;
+    border-radius: 10px;
+}
+.window-close{
+    color: red;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    cursor: pointer;
+}
+
+
+
+
+
+/* for Mobile/Small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .become-member-box{
+        padding: 40px 10px;
+    }
+    
+    .become-member-title{
+        color: #002366;
+        text-transform: uppercase;
+        font-size: 28px;
+        font-weight: 500;
+    }
+}

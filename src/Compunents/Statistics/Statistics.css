@@ -30,3 +30,14 @@
     text-transform: uppercase;
     color: #002366;
 }
+
+
+
+
+/* for Mobile/Small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .statistics-block{
+        padding: 40px 10px;
+    }
+    
+}

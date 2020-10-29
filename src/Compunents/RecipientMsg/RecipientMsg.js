@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import VolunteerIcon from '../../icon/volunteer.png';
 import './RecipientMsg.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCommentDots, faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
@@ -26,7 +25,7 @@ const RecipientMsg = () => {
                                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis omnis ad aliquid sit voluptatibus numquam incidunt, culpa odio laudantium at. Qui ab in perferendis. Incidunt, fugit. At nostrum laborum nam?
                                 <FontAwesomeIcon icon={faQuoteRight} size="1x" />
                         </p>
-                        <a href="#" className="recipient">Abrarul Hoque</a>
+                        <a href="/" className="recipient">Abrarul Hoque</a>
                         <p>Bakalia, Chattogram.</p>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -35,7 +34,7 @@ const RecipientMsg = () => {
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis omnis ad aliquid sit voluptatibus numquam incidunt, culpa odio laudantium at. Qui ab in perferendis. Incidunt, fugit. At nostrum laborum nam?
                             <FontAwesomeIcon icon={faQuoteRight} size="1x" />
                         </p>
-                        <a href="#" className="recipient">Abrarul Hoque</a>
+                        <a href="/" className="recipient">Abrarul Hoque</a>
                         <p>Bakalia, Chattogram.</p>
                     </Carousel.Item>
                 </Carousel>

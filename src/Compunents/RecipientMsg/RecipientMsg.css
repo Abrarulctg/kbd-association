@@ -94,3 +94,61 @@
 .recipient-msg-box .carousel-indicators{
     bottom: -30%;
 }
+
+
+
+
+    
+/* for Mobile/Small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){           
+    .recipient-msg-icon:after{
+        height: 8px;
+        width: 50px;
+        left: 22%;
+    }
+    
+    .recipient-msg-icon:before{
+        height: 8px;
+        width: 50px;
+        left: 78%;
+    }
+
+    .recipient-msg-box{
+        width: 85%;
+        padding: 40px 25px;
+        margin-bottom: 40px;
+        border-radius: 8px;
+    }
+    .recipient-msg{
+        font-size: 16px;
+    }
+        
+    .recipient-msg-box .carousel-indicators li{
+        display: none !important;
+    }
+
+
+    .recipient-msg-box .carousel-control-next, .recipient-msg-box .carousel-control-prev {
+        width: 20px;
+        height: 20px;
+        background-color: #ff0000;
+        border: 2px solid #fff;
+        top: 50%;
+        border-radius: 5px;
+    }
+    .recipient-msg-box .carousel-control-next{
+        right: -11%;
+    }
+    .recipient-msg-box .carousel-control-prev{
+        left: -11%;
+    }
+
+    .recipient-msg-box .carousel-control-prev-icon, .recipient-msg-box .carousel-control-next-icon{
+        width: 10px;
+    }
+
+    .recipient-msg-box .carousel-indicators{
+        bottom: -30%;
+    }
+
+}

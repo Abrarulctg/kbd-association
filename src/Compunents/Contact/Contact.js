@@ -1,16 +1,16 @@
 import React from 'react';
 import './Contact.css';
 import { useForm } from "react-hook-form";
-import { useState } from 'react';
+//import { useState } from 'react';
+import ContactInfo from '../ContactInfo/ContactInfo';
 
 const Contact = () => {
     const { register, handleSubmit, errors } = useForm();
-    const [scholarship, setscholarship] = useState(null);
 
-    function refreshPage() {
-        window.location.reload(false);
-        alert("Scholarship Information has been sent successfully to Database, Click ok to refresh the page.");
-    }
+    // function refreshPage() {
+    //     window.location.reload(false);
+    //     alert("Scholarship Information has been sent successfully to Database, Click ok to refresh the page.");
+    // }
 
 
     const onSubmit = data => {
@@ -104,7 +104,7 @@ const Contact = () => {
                     </div>
 
                     <div className="col-md-6">
-                        <h1 className="mini-type-title">Contact us</h1>
+                        <ContactInfo></ContactInfo>
                         
                     </div>
                 </div>

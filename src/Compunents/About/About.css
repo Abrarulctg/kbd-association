@@ -63,3 +63,53 @@
     line-height: 30px;
     font-size: 20px;
 }
+
+
+
+
+    
+/* for Mobile/Small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){    
+    .big-title{
+        font-size: 30px !important;
+    }
+     
+    .about-kbda{
+        padding: 30px 20px;
+        line-height: 25px;
+        font-size: 16px;
+    }
+
+        
+    .volunteer-icon{
+        position: relative;
+        width: 100px;
+    }
+
+    .volunteer:after{
+        height: 8px;
+        width: 50px;
+        background: tomato;
+        border-radius: 8px;
+        top: 50%;
+        left: 20%;
+        transform: translateX(-50%);
+    }
+    
+
+    .volunteer:before{
+        height: 8px;
+        width: 50px;
+        background: tomato;
+        border-radius: 8px;
+        top: 50%;
+        left: 80%;
+        transform: translateX(-50%);
+    }
+
+    .small-brief{
+        margin-bottom: 50px;
+        font-size: 16px;
+    }
+
+}

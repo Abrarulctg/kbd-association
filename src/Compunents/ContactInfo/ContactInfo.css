@@ -1,0 +1,24 @@
+.contact-info-list{
+    padding: 0;
+}
+.contact-info-list li{
+    list-style: none;
+    line-height: 30px;
+}
+
+.contact-address{
+    margin-top: 40px;
+    margin-bottom: 10px !important;
+}
+
+.contact-info-list li a{
+    color: #000;
+}
+
+.social-link{
+    margin-top: 30px;
+}
+
+.social-link svg{
+    margin-left: 10px;
+}

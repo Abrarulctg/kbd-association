@@ -67,3 +67,28 @@
     background:none!important;
     height:220px;
     width:100%;}
+
+
+
+    
+/* for Mobile/Small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){    
+    .footer-brand{
+        width: 150px;
+        margin-bottom: 20px;
+    }
+    .footer-block .col-md-10 p{
+        text-align: justify;
+    }
+
+    .footer-title{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .footer-address{
+        text-align: center;
+    }
+    .support-links ul li{
+        margin-left: 50px;
+    }
+}

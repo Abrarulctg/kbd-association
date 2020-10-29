@@ -25,10 +25,10 @@ const Volunteer = () => {
                             <p className="card-text">Founder</p> <br />
                         </div>
                         <div className="card-footer">
-                            <a href="#"><FontAwesomeIcon icon={faFacebookSquare} size="2x"/></a>
-                            <a href="#"><FontAwesomeIcon icon={faTwitter} size="2x"/></a>
-                            <a href="#"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a>
-                            <a href="#"><FontAwesomeIcon icon={faGooglePlusG} size="2x"/></a>
+                            <a href="/"><FontAwesomeIcon icon={faFacebookSquare} size="2x"/></a>
+                            <a href="/"><FontAwesomeIcon icon={faTwitter} size="2x"/></a>
+                            <a href="/"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a>
+                            <a href="/"><FontAwesomeIcon icon={faGooglePlusG} size="2x"/></a>
                         </div>
                     </div>
                 </div>
@@ -40,10 +40,10 @@ const Volunteer = () => {
                             <p className="card-text">Founder</p> <br />
                         </div>
                         <div className="card-footer">
-                            <a href="#"><FontAwesomeIcon icon={faFacebookSquare} size="2x"/></a>
-                            <a href="#"><FontAwesomeIcon icon={faTwitter} size="2x"/></a>
-                            <a href="#"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a>
-                            <a href="#"><FontAwesomeIcon icon={faGooglePlusG} size="2x"/></a>
+                            <a href="/"><FontAwesomeIcon icon={faFacebookSquare} size="2x"/></a>
+                            <a href="/"><FontAwesomeIcon icon={faTwitter} size="2x"/></a>
+                            <a href="/"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a>
+                            <a href="/"><FontAwesomeIcon icon={faGooglePlusG} size="2x"/></a>
                         </div>
                     </div>
                 </div>
@@ -55,10 +55,10 @@ const Volunteer = () => {
                             <p className="card-text">Founder</p> <br />
                         </div>
                         <div className="card-footer">
-                            <a href="#"><FontAwesomeIcon icon={faFacebookSquare} size="2x"/></a>
-                            <a href="#"><FontAwesomeIcon icon={faTwitter} size="2x"/></a>
-                            <a href="#"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a>
-                            <a href="#"><FontAwesomeIcon icon={faGooglePlusG} size="2x"/></a>
+                            <a href="/"><FontAwesomeIcon icon={faFacebookSquare} size="2x"/></a>
+                            <a href="/"><FontAwesomeIcon icon={faTwitter} size="2x"/></a>
+                            <a href="/"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a>
+                            <a href="/"><FontAwesomeIcon icon={faGooglePlusG} size="2x"/></a>
                         </div>
                     </div>
                 </div>
