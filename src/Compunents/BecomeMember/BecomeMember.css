@@ -22,6 +22,7 @@
     padding:60px !important;
     border-radius: 10px;
 }
+
 .window-close{
     color: red;
     position: absolute;
@@ -45,5 +46,8 @@
         text-transform: uppercase;
         font-size: 28px;
         font-weight: 500;
+    }
+    .paper{
+        padding:20px !important;
     }
 }

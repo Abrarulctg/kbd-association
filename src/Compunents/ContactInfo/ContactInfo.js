@@ -16,8 +16,7 @@ const ContactInfo = () => {
                 <li><a href="/">jubarictg99@gmail.com</a></li>
             </ul>
             <br/>
-            <br/>
-            <br/>
+            
 
             <h1 className="mini-type-title">Join with Social Media</h1>
             <div className="social-link">

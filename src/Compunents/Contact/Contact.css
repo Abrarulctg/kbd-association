@@ -27,14 +27,42 @@
     padding-bottom: 80px;
 }
 
-
 .input-title{
     font-size:24px;
     color: #002366;
     margin-top: 20px;
 }
 
-
 span.error{
     color: red;
+}
+
+.contact-form .btn-danger{
+    padding: 8px 35px;
+    float: right;
+}
+
+
+
+/* for Mobile/Small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .mini-type-title{
+        font-size: 26px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .mini-type-title:after{
+        height:3px;
+        width: 15%;
+        bottom:-30%;
+    }
+    .mini-type-title:before{        
+        height:3px;
+        width: 100%;
+        bottom:-30%;
+    }
+    
+    .contact-form{
+        padding-bottom: 50px;
+    }
 }

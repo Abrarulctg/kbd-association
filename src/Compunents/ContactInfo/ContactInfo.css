@@ -22,3 +22,18 @@
 .social-link svg{
     margin-left: 10px;
 }
+
+
+
+
+
+/* for Mobile/Small Screen */
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .contact-info-list li{
+        text-align: center;
+    }
+    
+    .social-link svg{
+        width: 35px !important;
+    }
+}

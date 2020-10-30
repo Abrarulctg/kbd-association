@@ -189,5 +189,10 @@
         font-weight: 500;
         text-transform: capitalize;
     }
+    
+    .paper-c{
+        padding:20px !important;
+        border-radius: 10px;
+    }
 
 }

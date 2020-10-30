@@ -1,0 +1,15 @@
+.user-icon{
+    color: #002366;
+    text-align: center !important;
+    margin-left: 30% !important;
+    margin-bottom: 40px;
+}
+
+.pass{
+    position: relative;
+}
+
+.eye-icon{
+    background-color: #fff;
+    border-left: #fff;
+}
